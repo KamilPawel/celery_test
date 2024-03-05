@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
-CELERY_BROKER_URL = "pyamqp://guest:guest@34.228.215.175:5672"
+CELERY_BROKER_URL = "pyamqp://guest:guest@34.228.215.175:5672//"
 
 INSTALLED_APPS = [
     "django.contrib.admin",
